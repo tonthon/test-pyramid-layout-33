@@ -5,17 +5,22 @@ Pyramid Layout Demo Application for bug #33
 Link to the bug :
 https://github.com/Pylons/pyramid_layout/issues/33
 
-Test environment :
-python-3.4
-with the packages versions listed in the requirements.txt file
+Python version : python-3.4
+
+
+With the packages versions listed in the requirements.txt file
+
 
 To run the app:
 
-    $ virtualenv venv -p python3
-    $ venv/bin/pip install -r requirements.txt
-    $ venv/bin/python setup.py develop
-    $ venv/bin/python setup.py develop
-    $ venv/bin/pserve development.ini
+.. code-block:: console
+
+    git clone https://github.com/tonthon/test-pyramid-layout-33.git
+    virtualenv venv -p python3
+    venv/bin/pip install -r requirements.txt
+    venv/bin/python setup.py develop
+    venv/bin/python setup.py develop
+    venv/bin/pserve development.ini
 
 Go to
 

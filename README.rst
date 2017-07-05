@@ -16,9 +16,9 @@ To run the app:
 .. code-block:: console
 
     git clone https://github.com/tonthon/test-pyramid-layout-33.git
+    cd test-pyramid-layout-33
     virtualenv venv -p python3
     venv/bin/pip install -r requirements.txt
-    venv/bin/python setup.py develop
     venv/bin/python setup.py develop
     venv/bin/pserve development.ini
 
@@ -32,9 +32,9 @@ http://0.0.0.0:6543/?view=html
 You should find a page with "It works"
 
 
-http://0.0.0.0:6543/home.jinja2
+http://0.0.0.0:6543/jinja2
 You should find the jinja2 index page
 
 
-http://0.0.0.0:6543/?view=html
+http://0.0.0.0:6543/jinja2?view=html
 You should find the jinja2 index page instead of the page with 'It works'

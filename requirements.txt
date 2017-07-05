@@ -1,5 +1,4 @@
 Chameleon==3.1
-demo==0.0
 hupper==1.0
 Jinja2==2.6
 Mako==1.0.6
